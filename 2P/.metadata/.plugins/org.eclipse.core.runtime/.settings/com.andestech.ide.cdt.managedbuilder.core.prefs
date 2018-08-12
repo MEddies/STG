@@ -1,0 +1,6 @@
+#Mon Jun 12 17:53:01 CST 2017
+eclipse.preferences.version=1
+toolChain/nds32le-elf-newlib-v2j/ldscript/__executable_start=500000
+toolChain/nds32le-elf-newlib-v2j/ldscript/_stack=3000000
+toolChain/nds32le-elf-newlib-v2j/ldscript/lastModified=1362003940000
+toolChain/nds32le-elf-newlib-v2j/ldscript/fileName=C\:\\Andestech\\AndeSight201MCU\\toolchains\\nds32le-elf-newlib-v2j\\nds32le-elf\\lib\\ldscripts\\nds32lelf.x

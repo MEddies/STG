@@ -1,0 +1,48 @@
+
+**** Build of configuration Debug for project 2P ****
+
+make all 
+Building file: ../main.c
+Invoking: Andes C Compiler
+nds32le-elf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function 'KeyScan':
+../main.c:81: warning: unused variable 'Row'
+../main.c: In function 'monster':
+../main.c:180: warning: implicit declaration of function 'site'
+../main.c: At top level:
+../main.c:189: warning: conflicting types for 'site'
+../main.c:180: note: previous implicit declaration of 'site' was here
+../main.c: In function 'music':
+../main.c:373: warning: 'return' with a value, in function returning void
+../main.c: In function 'main':
+../main.c:427: warning: suggest parentheses around comparison in operand of '&'
+../main.c:457: warning: unused variable 'i'
+../main.c:507: warning: suggest parentheses around comparison in operand of '&'
+../main.c:542: warning: unused variable 'i'
+Finished building: ../main.c
+ 
+Building target: 2P.adx
+Invoking: Andes C Linker
+nds32le-elf-gcc -O0 -nostartfiles -static -T"../nds32.ld" -o "2P.adx"  ./crt0.o ./gotkey.o ./init-default.o ./init-soc.o ./interrupt.o ./lcd.o ./main.o   
+Finished building target: 2P.adx
+ 
+Invoking: NM (symbol listing)
+nds32le-elf-nm -n -l -C "2P.adx" > output/symbol.txt
+Finished building: output/symbol.txt
+ 
+Invoking: Readelf (ELF info listing)
+nds32le-elf-readelf -a "2P.adx" > output/readelf.txt
+Finished building: output/readelf.txt
+ 
+Invoking: Objcopy (object content copy)
+nds32le-elf-objcopy -S -O binary "2P.adx" output/2P.bin
+Finished building: output/2P.bin
+ 
+Invoking: Size (section size listing)
+nds32le-elf-size  "2P.adx"
+   text	   data	    bss	    dec	    hex	filename
+  11000	   1315	     65	  12380	   305c	2P.adx
+Finished building: .PHONY.size
+ 
+
+**** Build Finished ****

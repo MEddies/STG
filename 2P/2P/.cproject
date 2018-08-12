@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="config.nds32le-elf-newlib-v2j.exe.debug.1343975053">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="config.nds32le-elf-newlib-v2j.exe.debug.1343975053" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.andestech.ide.cdt.managedbuilder.core.CROSS_GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="adx" artifactName="${ProjName}" buildArtefactType="nds.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=nds.buildArtefactType.exe" description="" id="config.nds32le-elf-newlib-v2j.exe.debug.1343975053" name="Debug" parent="config.nds32le-elf-newlib-v2j.exe.debug">
+					<folderInfo id="config.nds32le-elf-newlib-v2j.exe.debug.1343975053." name="/" resourcePath="">
+						<toolChain id="nds.nds32le-elf-newlib-v2j.exe.debug.1140333055" name="nds32le-elf-newlib-v2j" superClass="nds.nds32le-elf-newlib-v2j.exe.debug">
+							<targetPlatform id="target.nds32le-elf-newlib-v2j.platform.exe.debug.1447970396" name="Debug Platform" superClass="target.nds32le-elf-newlib-v2j.platform.exe.debug"/>
+							<builder buildPath="${workspace_loc:/lab11-2/Debug}" id="target.nds32le-elf-newlib-v2j.builder.exe.debug.1357261229" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Andes Make Builder" superClass="target.nds32le-elf-newlib-v2j.builder.exe.debug"/>
+							<tool id="tool.nds32le-elf-newlib-v2j.archiver.base.1338622142" name="Andes Archiver" superClass="tool.nds32le-elf-newlib-v2j.archiver.base"/>
+							<tool id="tool.nds32le-elf-newlib-v2j.cpp.compiler.exe.debug.1958393516" name="Andes C++ Compiler" superClass="tool.nds32le-elf-newlib-v2j.cpp.compiler.exe.debug">
+								<option id="nds32le-elf-newlib-v2j.cpp.compiler.exe.debug.option.optimization.level.1040320775" name="Optimization Level" superClass="nds32le-elf-newlib-v2j.cpp.compiler.exe.debug.option.optimization.level" value="nds.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option id="nds32le-elf-newlib-v2j.cpp.compiler.exe.debug.option.debugging.level.1397634762" name="Debug Level" superClass="nds32le-elf-newlib-v2j.cpp.compiler.exe.debug.option.debugging.level" value="nds.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+							</tool>
+							<tool id="tool.nds32le-elf-newlib-v2j.cpp.linker.exe.debug.630241769" name="Andes C++ Linker" superClass="tool.nds32le-elf-newlib-v2j.cpp.linker.exe.debug">
+								<option defaultValue="-O0" id="nds.cpp.link.option.optimization.level.763255597" name="Optimization Level" superClass="nds.cpp.link.option.optimization.level" valueType="string"/>
+								<option defaultValue="true" id="nds32le-elf-newlib-v2j.cpp.link.option.noshared.base.264736260" name="No shared libraries (-static)" superClass="nds32le-elf-newlib-v2j.cpp.link.option.noshared.base" valueType="boolean"/>
+							</tool>
+							<tool id="tool.nds32le-elf-newlib-v2j.c.compiler.exe.debug.75008555" name="Andes C Compiler" superClass="tool.nds32le-elf-newlib-v2j.c.compiler.exe.debug">
+								<option id="nds32le-elf-newlib-v2j.c.compiler.exe.debug.option.optimization.level.1098123476" name="Optimization Level" superClass="nds32le-elf-newlib-v2j.c.compiler.exe.debug.option.optimization.level" value="nds.c.optimization.level.none" valueType="enumerated"/>
+								<option id="nds32le-elf-newlib-v2j.c.compiler.exe.debug.option.debugging.level.1180850000" name="Debug Level" superClass="nds32le-elf-newlib-v2j.c.compiler.exe.debug.option.debugging.level" value="nds.c.debugging.level.max" valueType="enumerated"/>
+								<inputType id="tool.nds.c.compiler.input.338558382" superClass="tool.nds.c.compiler.input"/>
+							</tool>
+							<tool id="tool.nds32le-elf-newlib-v2j.c.linker.exe.debug.130775998" name="Andes C Linker" superClass="tool.nds32le-elf-newlib-v2j.c.linker.exe.debug">
+								<option defaultValue="-O0" id="nds.c.link.option.optimization.level.1190022894" name="Optimization Level" superClass="nds.c.link.option.optimization.level" valueType="string"/>
+								<option defaultValue="true" id="nds32le-elf-newlib-v2j.c.link.option.noshared.base.360913654" name="No shared libraries (-static)" superClass="nds32le-elf-newlib-v2j.c.link.option.noshared.base" valueType="boolean"/>
+								<option defaultValue="" id="nds32le-elf-newlib-v2j.c.link.exe.debug.option.ldscript.1525563545" name="Linker Script (-T)" superClass="nds32le-elf-newlib-v2j.c.link.exe.debug.option.ldscript" value="../nds32.ld" valueType="string"/>
+								<option id="nds.c.link.option.nostart.337528079" name="Do not use standard start files (-nostartfiles)" superClass="nds.c.link.option.nostart" value="true" valueType="boolean"/>
+								<inputType id="tool.nds.c.linker.input.520025229" superClass="tool.nds.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="tool.nds32le-elf-newlib-v2j.assembler.exe.debug.1666259238" name="Andes Assembler" superClass="tool.nds32le-elf-newlib-v2j.assembler.exe.debug">
+								<option defaultValue="-g" id="nds.both.asm.option.flags.525494419" name="Assembler flags" superClass="nds.both.asm.option.flags" valueType="string"/>
+								<inputType id="tool.nds.assembler.input.1071650765" superClass="tool.nds.assembler.input"/>
+							</tool>
+							<tool id="tool.nds32le-elf-newlib-v2j.nm.exe.debug.1681060611" name="NM (symbol listing)" superClass="tool.nds32le-elf-newlib-v2j.nm.exe.debug"/>
+							<tool id="tool.nds32le-elf-newlib-v2j.readelf.exe.debug.1839820884" name="Readelf (ELF info listing)" superClass="tool.nds32le-elf-newlib-v2j.readelf.exe.debug"/>
+							<tool id="tool.nds32le-elf-newlib-v2j.objdump.exe.debug.992601747" name="Objdump (disassembly)" superClass="tool.nds32le-elf-newlib-v2j.objdump.exe.debug"/>
+							<tool id="tool.nds32le-elf-newlib-v2j.objcopy.exe.debug.1655832288" name="Objcopy (object content copy)" superClass="tool.nds32le-elf-newlib-v2j.objcopy.exe.debug">
+								<option id="nds.objcopy.option.disable.435268724" name="Disable. (Do not auto-generate output file.)" superClass="nds.objcopy.option.disable" value="false" valueType="boolean"/>
+							</tool>
+							<tool id="tool.nds32le-elf-newlib-v2j.size.exe.debug.936973641" name="Size (section size listing)" superClass="tool.nds32le-elf-newlib-v2j.size.exe.debug"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="config.nds32le-elf-newlib-v2j.exe.release.1464167052">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="config.nds32le-elf-newlib-v2j.exe.release.1464167052" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.andestech.ide.cdt.managedbuilder.core.CROSS_GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="adx" artifactName="${ProjName}" buildArtefactType="nds.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release,org.eclipse.cdt.build.core.buildArtefactType=nds.buildArtefactType.exe" description="" id="config.nds32le-elf-newlib-v2j.exe.release.1464167052" name="Release" parent="config.nds32le-elf-newlib-v2j.exe.release">
+					<folderInfo id="config.nds32le-elf-newlib-v2j.exe.release.1464167052." name="/" resourcePath="">
+						<toolChain id="nds.nds32le-elf-newlib-v2j.exe.release.2011223393" name="nds32le-elf-newlib-v2j" superClass="nds.nds32le-elf-newlib-v2j.exe.release">
+							<targetPlatform id="target.nds32le-elf-newlib-v2j.platform.exe.release.877956567" name="Debug Platform" superClass="target.nds32le-elf-newlib-v2j.platform.exe.release"/>
+							<builder buildPath="${workspace_loc:/lab11-2/Release}" id="target.nds32le-elf-newlib-v2j.builder.exe.release.1555952734" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Andes Make Builder" superClass="target.nds32le-elf-newlib-v2j.builder.exe.release"/>
+							<tool id="tool.nds32le-elf-newlib-v2j.archiver.base.907698556" name="Andes Archiver" superClass="tool.nds32le-elf-newlib-v2j.archiver.base"/>
+							<tool id="tool.nds32le-elf-newlib-v2j.cpp.compiler.exe.release.2047355297" name="Andes C++ Compiler" superClass="tool.nds32le-elf-newlib-v2j.cpp.compiler.exe.release">
+								<option id="nds32le-elf-newlib-v2j.cpp.compiler.exe.release.option.optimization.level.44886914" name="Optimization Level" superClass="nds32le-elf-newlib-v2j.cpp.compiler.exe.release.option.optimization.level" value="nds.cpp.compiler.optimization.level.space" valueType="enumerated"/>
+								<option id="nds32le-elf-newlib-v2j.cpp.compiler.exe.release.option.debugging.level.1408184775" name="Debug Level" superClass="nds32le-elf-newlib-v2j.cpp.compiler.exe.release.option.debugging.level" value="nds.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+							</tool>
+							<tool id="tool.nds32le-elf-newlib-v2j.cpp.linker.exe.release.991398111" name="Andes C++ Linker" superClass="tool.nds32le-elf-newlib-v2j.cpp.linker.exe.release">
+								<option defaultValue="-O3" id="nds.cpp.link.option.optimization.level.115767509" name="Optimization Level" superClass="nds.cpp.link.option.optimization.level" valueType="string"/>
+								<option defaultValue="true" id="nds32le-elf-newlib-v2j.cpp.link.option.noshared.base.2018232967" name="No shared libraries (-static)" superClass="nds32le-elf-newlib-v2j.cpp.link.option.noshared.base" valueType="boolean"/>
+							</tool>
+							<tool id="tool.nds32le-elf-newlib-v2j.c.compiler.exe.release.2089035989" name="Andes C Compiler" superClass="tool.nds32le-elf-newlib-v2j.c.compiler.exe.release">
+								<option id="nds32le-elf-newlib-v2j.c.compiler.exe.release.option.optimization.level.757236009" name="Optimization Level" superClass="nds32le-elf-newlib-v2j.c.compiler.exe.release.option.optimization.level" value="nds.c.optimization.level.space" valueType="enumerated"/>
+								<option id="nds32le-elf-newlib-v2j.c.compiler.exe.release.option.debugging.level.859692718" name="Debug Level" superClass="nds32le-elf-newlib-v2j.c.compiler.exe.release.option.debugging.level" value="nds.c.debugging.level.none" valueType="enumerated"/>
+								<inputType id="tool.nds.c.compiler.input.887344994" superClass="tool.nds.c.compiler.input"/>
+							</tool>
+							<tool id="tool.nds32le-elf-newlib-v2j.c.linker.exe.release.1638665762" name="Andes C Linker" superClass="tool.nds32le-elf-newlib-v2j.c.linker.exe.release">
+								<option defaultValue="-O3" id="nds.c.link.option.optimization.level.504913868" name="Optimization Level" superClass="nds.c.link.option.optimization.level" valueType="string"/>
+								<option defaultValue="true" id="nds32le-elf-newlib-v2j.c.link.option.noshared.base.2004459319" name="No shared libraries (-static)" superClass="nds32le-elf-newlib-v2j.c.link.option.noshared.base" valueType="boolean"/>
+								<option defaultValue="" id="nds32le-elf-newlib-v2j.c.link.exe.release.option.ldscript.1575030574" name="Linker Script (-T)" superClass="nds32le-elf-newlib-v2j.c.link.exe.release.option.ldscript" valueType="string"/>
+								<inputType id="tool.nds.c.linker.input.1557403326" superClass="tool.nds.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="tool.nds32le-elf-newlib-v2j.assembler.exe.release.1240268667" name="Andes Assembler" superClass="tool.nds32le-elf-newlib-v2j.assembler.exe.release">
+								<option defaultValue="-O3" id="nds.both.asm.option.flags.696656277" name="Assembler flags" superClass="nds.both.asm.option.flags" valueType="string"/>
+								<inputType id="tool.nds.assembler.input.1446631072" superClass="tool.nds.assembler.input"/>
+							</tool>
+							<tool id="tool.nds32le-elf-newlib-v2j.nm.exe.release.1577922075" name="NM (symbol listing)" superClass="tool.nds32le-elf-newlib-v2j.nm.exe.release"/>
+							<tool id="tool.nds32le-elf-newlib-v2j.readelf.exe.release.37850527" name="Readelf (ELF info listing)" superClass="tool.nds32le-elf-newlib-v2j.readelf.exe.release"/>
+							<tool id="tool.nds32le-elf-newlib-v2j.objdump.exe.release.1108088195" name="Objdump (disassembly)" superClass="tool.nds32le-elf-newlib-v2j.objdump.exe.release"/>
+							<tool id="tool.nds32le-elf-newlib-v2j.objcopy.exe.release.1192396607" name="Objcopy (object content copy)" superClass="tool.nds32le-elf-newlib-v2j.objcopy.exe.release">
+								<option defaultValue="false" id="nds.objcopy.option.disable.1405901302" name="Disable. (Do not auto-generate output file.)" superClass="nds.objcopy.option.disable" valueType="boolean"/>
+							</tool>
+							<tool id="tool.nds32le-elf-newlib-v2j.size.exe.release.1596797421" name="Size (section size listing)" superClass="tool.nds32le-elf-newlib-v2j.size.exe.release"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="lab11-2.target.nds32le-elf-newlib-v2j.exe.1193040558" name="Andes Executable" projectType="target.nds32le-elf-newlib-v2j.exe"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-newlib-v2j.exe.release.1464167052;config.nds32le-elf-newlib-v2j.exe.release.1464167052.;tool.nds32le-elf-newlib-v2j.c.compiler.exe.release.2089035989;tool.nds.c.compiler.input.887344994">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-newlib-v2j.exe.debug.1343975053;config.nds32le-elf-newlib-v2j.exe.debug.1343975053.;tool.nds32le-elf-newlib-v2j.c.compiler.exe.debug.75008555;tool.nds.c.compiler.input.338558382">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="refreshScope"/>
+</cproject>
